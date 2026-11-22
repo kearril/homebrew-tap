@@ -1,20 +1,20 @@
 class Tacit < Formula
   desc "Local-first, transparent personal memory system for AI coding clients over MCP"
   homepage "https://github.com/kearril/tacit-memory"
-  version "1.0.0"
+  version "1.0.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/kearril/tacit-memory/releases/download/v1.0.0/tacit-1.0.0-osx-arm64.tar.gz"
-      sha256 "e0572d2f8ddfd247a24db1f3e74c9e1df20e7bb9df37cd4c8650126c9f3518de"
+      url "https://github.com/kearril/tacit-memory/releases/download/v1.0.1/tacit-1.0.1-osx-arm64.tar.gz"
+      sha256 "24ea0c416cd866202e757032e06d73fcaa2f05e48ad1565c5c65fab84a529479"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/kearril/tacit-memory/releases/download/v1.0.0/tacit-1.0.0-linux-x64.tar.gz"
-      sha256 "707182fbc3d8fa6e6c070a890def5f9db4059a6b0a91ba2e1e5bb9f7e27720e7"
+      url "https://github.com/kearril/tacit-memory/releases/download/v1.0.1/tacit-1.0.1-linux-x64.tar.gz"
+      sha256 "3a75d92025e7ab893ad071127b7a8031cd40d5ae98c19c8efc6cdf30e5f1d8a1"
     end
   end
 
